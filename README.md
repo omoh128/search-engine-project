@@ -1,6 +1,4 @@
-# search-engine-project
-
-# Search Engine Project
+# Elastic Search Engine Project
 
 The Search Engine Project is a web-based search engine that utilizes Elasticsearch for indexing and searching data, along with Google API integration for fetching additional search results from Google's search engine.
 
