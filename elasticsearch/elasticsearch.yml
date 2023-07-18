@@ -1,0 +1,23 @@
+# Cluster settings
+cluster.name: my-search-cluster
+node.name: node-1
+network.host: 0.0.0.0
+
+# Node settings
+node.master: true
+node.data: true
+
+# Index settings
+index.number_of_shards: 3
+index.number_of_replicas: 2
+
+# Paths
+path.data: /path/to/data
+path.logs: /path/to/logs
+
+# Discovery settings
+discovery.seed_hosts: ["node-1", "node-2", "node-3"]
+
+# Network settings
+http.port: 9200
+transport.port: 9300
